@@ -112,7 +112,7 @@ assert.deepEqual(functions.mid(arr), ["smith","brown"]);
 describe('total', function(){
   it('should return 0 when the provided array is empty []', function(){  
     let arr = [];
-      assert.deepEqual(functions.total(arr),0);
+      assert.equal(functions.total(arr),0);
   }); 
 
   it('should return 30 when the provided array is [4,8,18] ', function(){  
@@ -132,9 +132,14 @@ describe('average', function(){
       assert.isNull(functions.average(arr));
   }); 
 
-  it('should return 7.33333333 when the provided array is [8,5,9] ', function(){  
-    let arr = [8,5,9];
-    assert.notDeepEqual(functions.average(arr), 7.33333333);
+  it('should return -3 when the provided array is [0,0,-9] ', function(){  
+    let arr = [0,0,-9];
+    assert.equal(functions.average(arr), -3);
+});
+
+it('should return 7.333333333333333 when the provided array is [8,5,9] ', function(){  
+  let arr = [8,5,9];
+  assert.deepEqual(functions.average(arr), 7.333333333333333);
 });
 
 it('should return 3 when the provided array is [8,0,-3,7] ', function(){  
