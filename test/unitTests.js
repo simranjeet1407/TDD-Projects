@@ -184,10 +184,10 @@ describe('merge', function(){
       assert.isNull(functions.merge(arr1,arr2));
   }); 
   
-  it('should returns [1,3,0,9] when the arr1 is [1,0] and arr2 is [3,9]', function(){  
+  it('should returns [1,-3,0,9] when the arr1 is [1,0] and arr2 is [-3,9]', function(){  
     let arr1 = [1,0];
-    let arr2 = [3,9];
-    assert.deepEqual(functions.merge(arr1,arr2), [1,3,0,9]);
+    let arr2 = [-3,9];
+    assert.deepEqual(functions.merge(arr1,arr2), [1,-3,0,9]);
   });
 
   it('should returns [5,9] when the arr1 is empty [] and arr2 is [5,9] ', function(){  
