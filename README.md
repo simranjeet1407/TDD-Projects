@@ -10,7 +10,7 @@ An Automated Testing Project for practicing Unit Testing with [Mocha](https://mo
 ## Setup
 
 1. Clone this respositary to your machine.
-2. Go into the project's rrot directory, and run the command `npm install`.
+2. Go into the project's root directory, and run the command `npm install`.
 3. Run the test suit using the command `npm test`.
 
 If the command `npm test` does not work, you may need to install mocha globally on your machine.Do this with the command `npm install -g mocha`.
