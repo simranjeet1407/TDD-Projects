@@ -91,6 +91,7 @@ describe('tail', function(){
         assert.equal(functions.tail(arr),  'I am good'); 
     });
 });
+
 describe('mid', function(){
     it('should return null when the provided array is empty [] ' , function(){
         let arr = [];
