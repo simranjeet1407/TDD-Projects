@@ -17,5 +17,5 @@ If the command `npm test` does not work, you may need to install mocha globally 
 
 ## What we learned working on this Project
 
-- I learned how to use Chai's assertion syntax for unit tests.
-- I learned the Node.js and also improved my skills working on Visual Studio Code.
+- We learned how to use Chai's assertion syntax for unit tests.
+- We learned the Node.js and also improved our skills working on Visual Studio Code.
